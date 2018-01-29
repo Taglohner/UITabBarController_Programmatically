@@ -17,6 +17,7 @@
 		E7F30A6F201FD2A300185EC3 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F30A6E201FD2A300185EC3 /* MoreViewController.swift */; };
 		E7F30A71201FDA4000185EC3 /* FavoritesFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F30A70201FDA4000185EC3 /* FavoritesFirstCell.swift */; };
 		E7F30A73201FDA4A00185EC3 /* FavoritesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F30A72201FDA4A00185EC3 /* FavoritesHeader.swift */; };
+		E7F30A7A201FDD7B00185EC3 /* BookmarksFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F30A79201FDD7B00185EC3 /* BookmarksFirstCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E7F30A6E201FD2A300185EC3 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		E7F30A70201FDA4000185EC3 /* FavoritesFirstCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesFirstCell.swift; sourceTree = "<group>"; };
 		E7F30A72201FDA4A00185EC3 /* FavoritesHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesHeader.swift; sourceTree = "<group>"; };
+		E7F30A79201FDD7B00185EC3 /* BookmarksFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksFirstCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +78,11 @@
 		E7F30A6B201FCFF400185EC3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E7F30A63201FCE0400185EC3 /* TabBarController.swift */,
+				E7F30A78201FDCDF00185EC3 /* TabBarController */,
 				E7F30A74201FDA7C00185EC3 /* FavoritesViewController */,
-				E7F30A67201FCF5D00185EC3 /* BookmarksViewController.swift */,
-				E7F30A65201FCE9E00185EC3 /* DownloadsViewController.swift */,
-				E7F30A6E201FD2A300185EC3 /* MoreViewController.swift */,
+				E7F30A75201FDCBB00185EC3 /* BookmarksViewController */,
+				E7F30A76201FDCC600185EC3 /* DownloadsViewController */,
+				E7F30A77201FDCD100185EC3 /* MoreViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -93,6 +95,39 @@
 				E7F30A70201FDA4000185EC3 /* FavoritesFirstCell.swift */,
 			);
 			path = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		E7F30A75201FDCBB00185EC3 /* BookmarksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E7F30A67201FCF5D00185EC3 /* BookmarksViewController.swift */,
+				E7F30A79201FDD7B00185EC3 /* BookmarksFirstCell.swift */,
+			);
+			path = BookmarksViewController;
+			sourceTree = "<group>";
+		};
+		E7F30A76201FDCC600185EC3 /* DownloadsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E7F30A65201FCE9E00185EC3 /* DownloadsViewController.swift */,
+			);
+			path = DownloadsViewController;
+			sourceTree = "<group>";
+		};
+		E7F30A77201FDCD100185EC3 /* MoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E7F30A6E201FD2A300185EC3 /* MoreViewController.swift */,
+			);
+			path = MoreViewController;
+			sourceTree = "<group>";
+		};
+		E7F30A78201FDCDF00185EC3 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E7F30A63201FCE0400185EC3 /* TabBarController.swift */,
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F30A7A201FDD7B00185EC3 /* BookmarksFirstCell.swift in Sources */,
 				E7F30A73201FDA4A00185EC3 /* FavoritesHeader.swift in Sources */,
 				E7F30A64201FCE0400185EC3 /* TabBarController.swift in Sources */,
 				E7F30A52201FCDA400185EC3 /* AppDelegate.swift in Sources */,
